@@ -1,0 +1,38 @@
+FMX reconciliation run summary
+Technician file: /Users/lilah.grom-c/Desktop/fmx-reconcile/data/Technician_Capture.csv.xlsx
+Partner file:    /Users/lilah.grom-c/Desktop/fmx-reconcile/data/Partner_Equipment_List.xlsx
+
+Rows in:            201  (technician 146, partner 55)
+Rows out:           162
+  Ready:            122
+  Needs review:     40
+Duplicates merged:  39  (technician vs partner 36, repeat entries in the same file 3)
+
+Approximate install years kept: 8  (e.g. "approx. 2004" became 2004; the capital plan only needs a rough age)
+
+Check: 201 rows in = 162 rows out + 39 merged -> OK, no rows lost
+
+Review reasons (a row can have more than one):
+   13  Asset type isn't on FMX's list or is too vague to map
+    6  Nameplate data missing
+    5  Condition differs
+    4  Condition is blank
+    3  Note reports a crack
+    2  Note mentions a replacement
+    2  Install year isn't a single year
+    2  Install year differs
+    1  Asset type is blank
+    1  Technician could not inspect this item and planned to come back
+    1  Install year isn't a realistic year
+    1  Row covers several assets
+    1  Serial number is not on the nameplate list
+    1  Note says the unit is locked out
+    1  Condition is outside the 1 to 10 scale
+    1  Note says the equipment is abandoned
+    1  Serial number looks rounded by Excel
+    1  Technician could not reach the nameplate
+    1  Condition uses words instead of the 1 to 10 scale
+
+Non-equipment rows skipped (not counted as rows in):
+  technician row 96: Repeated header row
+  partner row 61: Note/footer text, not equipment: "Survey performed September 14 to 16, 2026. Condition ratings"

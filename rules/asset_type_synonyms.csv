@@ -1,0 +1,36 @@
+alias,asset_type
+RTU,Rooftop Unit
+Roof Top Unit,Rooftop Unit
+Roof Top AC,Rooftop Unit
+Rooftop AC,Rooftop Unit
+AHU,Air Handling Unit
+Air Handler,Air Handling Unit
+MAU,Make-Up Air Unit
+Makeup Air Unit,Make-Up Air Unit
+UV,Unit Ventilator
+Unit Vent,Unit Ventilator
+Classroom UV,Unit Ventilator
+EF,Exhaust Fan
+Exh Fan,Exhaust Fan
+Roof Exhaust,Exhaust Fan
+Blr,Boiler
+HW Boiler,Boiler
+Boiler - Hot Water,Boiler
+Inline Circulator,Pump
+Circulator,Pump
+DX Split,Split System
+Mini Split,Split System
+Ductless Split,Split System
+WH,Water Heater
+HWH,Water Heater
+BFP,Backflow Preventer
+Backflow,Backflow Preventer
+Panel,Electrical Panel
+Panelboard,Electrical Panel
+Elec Panel,Electrical Panel
+XFMR,Transformer
+Genset,Emergency Generator
+Emergency Gen,Emergency Generator
+Generator,Emergency Generator
+Fire Alarm Panel,Fire Alarm Control Panel
+FACP,Fire Alarm Control Panel

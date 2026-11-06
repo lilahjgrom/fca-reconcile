@@ -1,0 +1,7 @@
+keyword,reason
+abandon,Note says the equipment is abandoned; confirm it belongs in the capital plan
+replaced,Note mentions a replacement; confirm the install year
+locked out,Note says the unit is locked out; confirm condition
+cracked,Note reports a crack; confirm condition
+come back,Technician could not inspect this item and planned to come back
+could not reach,Technician could not reach the nameplate
